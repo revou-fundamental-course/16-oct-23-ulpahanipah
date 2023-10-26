@@ -1,0 +1,279 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 2em;
+    border-bottom: 1.5px solid rgb(134, 134, 134);
+    border-top: 1.5px solid rgb(134, 134, 134);
+}
+
+.nav-logo img {
+    max-height: 40px;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-item {
+    padding: 2px 1em;
+    border: 0.5px solid black;
+    min-width: 60px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item:hover {
+    background: rgb(26, 47, 163);
+    color: white;
+}
+
+.greetings {
+    padding-top: 2em;
+    padding-left: 4em;
+    color: white;
+}
+
+.banner {
+    background-image: url('../assets/server-room.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    margin-top: 1em;
+}
+
+.profile {
+    border-top: 1.5px solid rgb(134, 134, 134);
+    margin-top: 2em;
+}
+
+.profile h1 {
+    padding: 0.5em 4em 0em 2.5em;
+}
+
+.desc-profile {
+    text-align: justify;
+    padding: 0em 7em 1.5em 7em;
+    color: rgb(90, 90, 90);
+}
+
+.visi-misi {
+    background-color: rgb(26, 47, 163);
+    margin-left: 0em;
+    padding-left: 0em;
+    padding: 1em 4em 0em 4em;
+    color: white;
+}
+
+.visi {
+    display: flex;
+}
+
+.misi {
+    display: flex;
+}
+
+.visi-text {
+    width: 60%;
+}
+
+.misi-text {
+    width: 60%;
+    padding-left: 3em;
+}
+
+.visi-image img {
+    max-height: 15em;
+}
+
+.misi-image img {
+    max-height: 20em;
+}
+
+.headquarters {
+    padding-top: 1em;
+    padding-left: 4em;
+    border-bottom: 1.5px solid rgb(134, 134, 134);
+    border-top: 1.5px solid rgb(134, 134, 134);
+    margin-top: 2em;
+}
+
+.circle1 {
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url('../assets/jakarta.jpg');
+    background-size: cover;
+}
+
+.circle2 {
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url('../assets/bandung.jpg');
+    background-size: cover;
+}
+
+.circle3 {
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url('../assets/surabaya.jpg');
+    background-size: cover;
+}
+
+.hq-circle {
+    padding: 2em 5em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hq-items {
+    padding: 0em 5em 4em 5em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.message-us {
+    padding: 1em 0em 2em 4em;
+}
+
+.form {
+    display: flex;
+}
+
+.form-left {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+td {
+    vertical-align: top;
+}
+
+#laki {
+    width: 5%;
+}
+
+#perempuan {
+    width: 5%;
+}
+
+#button {
+    width: 100%;
+}
+
+.form-left input {
+    width: 100%;
+}
+
+.form-left textarea {
+    width: 100%;
+}
+
+.form-right {
+    width: 50%;
+    border: 1.5px solid rgb(76, 76, 76);
+    box-sizing: border-box;
+    margin-right: 4em;
+    margin-left: 4em;
+    padding-left: 1em;
+}
+
+.footer-text {
+    color: rgb(103, 103, 103);
+    font-size: small;
+}
+
+.footer {
+    border-top: 1.5px solid rgb(134, 134, 134);
+    text-align: right;
+    padding: 10px 30px 10px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .nav {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .nav-logo {
+        margin-bottom: 15px;
+    }
+
+    .desc-profile {
+        padding: 0em 5em 1.5em 5em;
+    }
+
+    .visi {
+        flex-direction: column;
+    }
+
+    .misi {
+        flex-direction: column;
+    }
+
+    .visi-text {
+        width: 100%;
+    }
+    
+    .misi-text {
+        width: 100%;
+        padding-left: 0em;
+        padding-right: 2em;
+    }
+    
+    .visi-image img {
+        max-height: 12em;
+    }
+    
+    .misi-image img {
+        max-height: 15em;
+    }
+
+    .hq-circle {
+        padding: 2em 2.5em;
+    }
+
+    .hq-items {
+        padding: 0em 2.5em 4em 2.5em;
+    }
+
+    .circle1 {
+        height: 100px;
+        width: 100px;
+    }
+
+    .circle2 {
+        height: 100px;
+        width: 100px;
+    }
+
+    .circle3 {
+        height: 100px;
+        width: 100px;
+    }
+
+    .form {
+        flex-direction: column;
+    }
+
+    .form-left {
+        width: 100%;
+    }
+
+    .form-right {
+        width: 100%;
+        margin: 2em 0em 0em 0em;
+        padding-bottom: 2em;
+    }
+}

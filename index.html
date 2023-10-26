@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Profile</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="nav-logo">
+            <img src="./assets/LOGO-HUYULA.png" alt="logo-huyula">
+        </div>
+        <nav class="nav">
+            <div class="nav-item">Home</div>
+            <a href="#profile" class="nav-item">Our Profile</a>
+            <div class="nav-item">Portofolio</div>
+            <a href="#message-us" class="nav-item">Message Us</a>
+        </nav>
+    </header>
+    <section class="banner">
+        <div class="greetings">
+            <h1>Hi <span id="greetingName"></span>, Welcome To Website</h1>
+            <h4>Ini adalah website latihan pertama</h4>
+        </div>
+    </section>
+    <section id="profile" class="profile">
+        <h1>Our Profile</h1>
+        <p class="desc-profile">Huyula Asri Indonesia (juga dikenal sebagai “Huyula”) adalah perusahaan Penyedia Solusi Teknologi dan Layanan Profesional yang berbasis di Gorontalo, Indonesia. Berdiri sejak 2014, Huyula dikelola oleh tim profesional TI yang berpengalaman dan terampil yang telah melayani industri selama bertahun-tahun. Kami berusaha keras untuk menghadirkan perkembangan industri yang paling mutakhir kepada pelanggan kami dengan cara yang mudah dipahami dan hemat biaya tentunya.Perusahaan IT yang fokus dalam pengembangan solusi terintegrasi bagi kalangan pemerintahan, perguruan tinggi, industri, dan juga perusahaan skala nasional dengan produk andalan yang berkualitas. Kami dengan cepat membangun reputasi yang patut ditiru di pasar dan bangga membanggakan retensi pelanggan terdepan di industri dari semua lini usaha, yang menambah kredibilitas besar pada layanan dan dukungan pelanggan kami yang luar biasa. Saat ini, kapabilitas dan jangkauan layanan kami bersifat nasional, dan didukung oleh para profesional dan mitra.Kami percaya mampu membantu bisnis Anda untuk bertransformasi ke era digital dengan solusi yang terbaik.</p>
+        <div class="visi-misi">
+            <div class="visi">
+                <div class="visi-text">
+                    <h2>Visi</h2>
+                    <ul>
+                        <li>Profesional dengan solusi dan layanan.</li>
+                        <li>Terintegerasi dan mengikuti tren dunia Teknologi Informasi.</li>
+                        <li>Berkontribusi dibidang penelitian TIK dan pengabdian kepada masyarakat.</li>
+                    </ul>
+                </div>
+                <div class="visi-image">
+                    <img src="./assets/visi.png" alt="visi-huyula">
+                </div>
+            </div>
+            <div class="misi">
+                <div class="misi-image">
+                    <img src="./assets/misi.png" alt="misi-huyula">
+                </div>
+                <div class="misi-text">
+                    <h2>Misi</h2>
+                    <ul>
+                        <li>Mengedepankan profesionalisme, kemampuan individu, dan tim dalam menghasilkan produk-produk unggulan.</li>
+                        <li>Memberikan produk dan layanan yang berkualitas dengan layanan purna jual yang maksimal kepada setiap pelangan kami.</li>
+                        <li>Memberikan solusi yang optimal kepada mitra kerja dalam mengatasi berbagai permasalahan di dunia teknologi informasi.</li>
+                        <li>Tidak hanya memberi solusi, kami memberikan layanan yang terpadu dalam setiap layanan Teknologi Informasi yang kami berikan.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="headquarters">
+        <h1>Our Headquarters</h1>
+        <div class="hq-circle">
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+            <div class="circle3"></div>
+        </div>
+        <div class="hq-items">
+            <div>Jakarta</div>
+            <div>Bandung</div>
+            <div>Surabaya</div>
+        </div>
+    </section>
+    <section id="message-us" class="message-us">
+        <h1>Message Us</h1>
+        <div class="form">
+            <div class="form-left">
+                <table id="table1" class="table1">
+                    <tr>
+                        <td>Nama</td>
+                        <td>:</td>
+                        <td>
+                            <input id="nama" name="nama" type="text" placeholder="Nama">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Tanggal Lahir</td>
+                        <td>:</td>
+                        <td>
+                            <input id="tanggallahir" name="tanggallahir" type="date">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Jenis Kelamin</td>
+                        <td>:</td>
+                        <td>
+                            <input type="radio" id="laki" name="jeniskelamin" value="Laki-Laki">
+                            <label for="laki">Laki-Laki</label>
+                            <input type="radio" id="perempuan" name="jeniskelamin" value="Perempuan">
+                            <label for="perempuan">Perempuan</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Pesan</td>
+                        <td>:</td>
+                        <td>
+                            <textarea id="pesan" name="pesan" placeholder="Pesan" rows="4" cols="50"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <button id="button">Submit</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="form-right">
+                <table id="table2" class="table2">
+                    <p id="submitForm" class="submitForm"></p>
+                </table>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+            <p class="footer-text">Created By Ulpa</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
